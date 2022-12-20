@@ -6,10 +6,10 @@ const FoodCard = ({data, idioma}) => {
   const [card, setCard] = useState("foodCard")
   const url=useLocation().pathname
   useEffect(()=>{
-    if(url=="/mixologia"){
+    if(url==="/mixologia"){
       setCard("mixCard")
     }
-  },[])
+  },[url])
   return (
     <div className={`${card}${data.tipo}`}>
       <div className={`textArea`}>
