@@ -8,6 +8,8 @@ const FoodCard = ({data, idioma}) => {
   useEffect(()=>{
     if(url==="/mixologia"){
       setCard("mixCard")
+    } else{
+      setCard("foodCard")
     }
   },[url])
   return (
