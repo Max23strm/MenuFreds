@@ -43,20 +43,20 @@
 }
 
 .carousel .flickity-viewport{
-    width: 90%;
+    width: 100%;
     overflow-x: hidden;
     margin: 0 auto;
     height: fit-content;
     overflow-y: hidden;
 }
 .carousel .flickity-viewport a{
-    margin: 0 11px;
+    margin: 0 2.5% ;
     text-decoration: none;
     display: flex;
     flex-direction: column;
     gap: 5px;
     align-items: center;
-    width: 60px;
+    width: 70px;
     
 }
 .carousel .flickity-viewport a img{
