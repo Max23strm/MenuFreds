@@ -1,0 +1,91 @@
+.grupoHeader{
+    background-color: #eaad28;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.grupoTopHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grupoTopHeader button{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+.grupoTopHeader > *{
+    flex: 0;
+}
+.grupoHaderLogo{
+    flex: 1;
+    width: 10vw;
+    max-width: 150px;
+}
+
+.carousel{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    align-items: left;
+}
+
+.carousel:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.carousel .flickity-viewport{
+    width: 95%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: fit-content;
+    overflow-y: hidden;
+}
+.carousel .flickity-viewport a{
+    margin: 0 1rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 60px;
+    
+}
+.carousel .flickity-viewport a img{
+    width: 50px;
+    background-color: #009999;
+    border-radius: 50%;
+}
+.carousel .flickity-viewport a p{
+    line-height: 17px !important;
+    font-size: 12px;
+    margin: 0px;
+    color: #fff;
+}
+.carousel .flickity-button{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+}
+.carousel .previous{
+    left: 0;
+    transform: translateY(-50%)
+}
+.carousel .next{
+    right: 0;
+    transform: translateY(-50%)
+}
+
+.carousel .flickity-button svg{
+    fill: white;
+    width: 15px;
+}

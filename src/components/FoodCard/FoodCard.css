@@ -1,0 +1,92 @@
+.foodCardcomun{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100px;
+    border-bottom: 1px solid rgb(164, 163, 163);
+}
+.foodCardespecial{
+    display: flex;
+    width: 95%;
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 150px;
+}
+.foodCardespecial .textArea {
+    width: 90%;
+}
+.foodCardespecial .foodArea{
+    width: 90%;
+}
+.textArea{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 10px;
+    text-align: left;
+    gap: 15px;
+    width: 50%;
+}
+.textArea > *{
+    margin: 0;
+}
+.textArea h3{
+    color: #1E383F;
+    font-family: "FuturaH", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.textArea .qty{
+    text-align: left;
+    color: #1E383F;
+    font-family: "FuturaH", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.textArea .desc{
+    color: #1E383F;
+    font-family: "FuturaBook", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.textArea .pres{
+    color: #1E383F;
+    font-family: "FuturaH", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.textArea .extraSection .extraStart{
+    color: #f18510;
+}
+.textArea .extraSection ul{
+    padding-left: 10px;
+    color: #1E383F;
+    font-family: "FuturaBook", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.textArea .extraFoodCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.textArea .extraFoodCard p{
+    margin: 0 0 5px;
+}
+.foodArea{
+    width: 50%;
+    overflow: hidden;
+}
+.foodArea img, .foodArea video{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}

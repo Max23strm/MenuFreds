@@ -1,0 +1,106 @@
+restaurante : [
+
+    {
+        nombre: {es:"Frías",en:"Fresh"},
+        platos:[
+            {
+            nombre:{es:"TOSTADA DE ATÚN ", en:"TUNA SLICE TOSTADA"},
+            qty:{es:"1 pza", en:"1 pc"},
+            descripcion:{es:"Aderezo de chipotle y cilantro, cebolla caramelizada y aguacate", en:"Chipotle and coriander mayonnaise, caramelized onion and avocado "},
+            precio:"135",
+            tipo:"comun",
+            img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Tostada-de-atun-freds.jpg"
+            },
+            {
+                nombre:{es:"TÁRTARA DE ATÚN SAKU*", en: "TUNA SAKU TARTAR*"},
+                qty:{es:"120 g", en:"4 oz"},
+                descripcion:{es:"Pepino, aguacate, ajonjolí, ponzu, aceite de oliva y crocante de zanahoria",en: "Cucumber, avocado, sesame, ponzu, olive oil and carrot crunchies "},
+                precio:"260",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/TARTARA-DE-ATUN-SAKU-freds.jpg"
+
+            },
+            {
+                nombre:{es:"AGUACHILE VERDE DE CAMARÓN*",en:"GREEN SHRIMP AGUACHILE*"},
+                descripcion:{es:"Pepino, cebolla morada y chile serrano ", en:"Cucumber, red onion and serrano chili "},
+                qty:{es:"150 g", en:"5 oz"},
+                precio:"290",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Aguachile-verde-camaron-freds-1.jpg"
+            },
+            {
+                nombre:{es:"COCTÉL DE CAMARÓN*",en:"SHRIMP COCKTAIL*"},
+                descripcion:{es:"Estilo americano ", en:"American style "},
+                qty:{es:"5 oz", en:"Chocolate cake"},
+                precio:"280",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/Screen-Shot-2022-09-26-at-1.23.55-PM.png"
+            },
+            {
+                nombre:{es:"AGUACHILE TATEMADO*",en:" FRED´S AGUACHILE*"},
+                descripcion:{es:"Camarón, aguacate, jitomate, cebolla cambray y cilantro. En salsa especial de la casa", en:"Shrimp, avocado, tomato, spring onion and coriander. In our special house sauce "},
+                qty:{es:"150 g", en:"5 oz"},
+                precio:"320",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Aguachile-tatemado-freds-1.jpg"
+            },
+            {
+                nombre:{es:"TIRADITO DE SALMÓN EXÓTICO*",en:"EXOTIC SALMON TIRADITO*"},
+                descripcion:{es:"Salsa de maracuyá, soya, fresas, arúgula baby y sal ", en:"Passion fruit sauce, soy, strawberries, baby arugula and salt "},
+                qty:{es:"120 g", en:"5 oz"},
+                precio:"280",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Tiradito-de-salmon-freds.jpg"
+            },
+            {
+                nombre:{es:"CARPACCIO DE BETABEL ",en:"BEETROOT SLICED "},
+                descripcion:{es:"Champiñones, tomates deshidratados, mango, queso parmesano y aceite de oliva ", en:"Mushrooms, dried tomatoes, mango, parmesan cheese and olive oil "},
+                qty:{es:null, en:null},
+                precio:"150",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Carpaccio-betabel-freds-1.jpg"
+            },
+            {
+                nombre:{es:"CALLO DE HACHA",en:"SCALLOP"},
+                descripcion:{es:["Preparaciones a elegir","Aguachile chiltepín","Tiradito tropical","Aguachile verde estilo Sinaloa"], en:["To choose from","Chiltepin chili aguachile","Tropical tiradito","Green aguachile sauce, Sinaloa style"]},
+                qty:{es:"200 g", en:"7 oz"},
+                precio:"380",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/callo-de-hacha-1.jpg"
+            },
+            {
+                nombre:{es:"CAMARONES PARA PELAR ",en:"SHRIMPS TO PEEL"},
+                descripcion:{es:"Sin cabeza, cocidos.
+                Con aderezo FRED´S y
+                salsa coctelera ", en:"Fully cooked. With FRED´S dressing and cocktail sauce "},
+                qty:{es:"350 g", en:"12 oz"},
+                precio:"580",
+                tipo:"comun",
+                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/camarones-para-pelar-720x720.jpg"
+            },
+        ]
+    },
+    {
+        nombre: {es:"Postres",en:"Desserts"},
+        platos:[
+            {
+            nombre:{es:"Pastel de Chocolate", en:"Chocolate cake"},
+            descripcion:{es:"Es un pastel de chocolate, culeado", en:"It´s a chocolate cake, culeado"},
+            precio:"200",
+            tipo:"comun",
+            },
+            {
+                nombre:{es:"Pastel de Vainilla", en: "Vanilla Cake"},
+                descripcion:{es:"Es un pastel de vainilla,  culeado",en: "It´s a vanilla cake, culeado"},
+                precio:"210",
+                tipo:"comun",
+            },
+            {
+                nombre:{es:"Tiramisú",en:"Tiramisu"},
+                descripcion:{es:"Es un tiramisú, culeado", en:"It´s a tiramisu, culeado"},
+                precio:"350",
+                tipo:"especial",
+            },
+        ]
+    },
+]
