@@ -6,7 +6,7 @@ import './Header.css'
 
 const header = ({idioma, changeIdioma, data}) => {
 
-  const option={pageDots: false, cellAlign: 'left', wrapAround:true}
+  const option={pageDots: false, cellAlign: 'left', wrapAround:true,selectedAttraction: 0.2}
   return (
     <header className={`grupoHeader`}>
       <section className={`grupoTopHeader`}>
