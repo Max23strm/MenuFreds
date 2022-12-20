@@ -28,10 +28,10 @@ const header = ({idioma, changeIdioma, data}) => {
               )
             }
             return(
-              <Link to={e.link} key={i}>
+              <a href={e.link} key={i}>
                 <img src={e.img} alt={"icon"} />
                 <p>{e.nombre[idioma]}</p>
-              </Link>
+              </a>
             )
           })}
         </Flickity>

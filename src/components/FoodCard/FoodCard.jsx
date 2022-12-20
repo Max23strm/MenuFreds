@@ -1,9 +1,17 @@
-import React, {  } from 'react'
+import React, { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 
 import "./FoodCard.css"
 const FoodCard = ({data, idioma}) => {
+  const [card, setCard] = useState("foodCard")
+  const url=useLocation().pathname
+  useEffect(()=>{
+    if(url=="/mixologia"){
+      setCard("mixCard")
+    }
+  },[])
   return (
-    <div className={`foodCard${data.tipo}`}>
+    <div className={`${card}${data.tipo}`}>
       <div className={`textArea`}>
         <h3>{data.nombre[idioma]}</h3>
         {data.qty && (<p className='qty'>{data.qty[idioma]}</p>)}

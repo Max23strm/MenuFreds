@@ -1,4 +1,4 @@
-.foodCardcomun{
+.foodCardcomun,.mixCardcomun{
     display: flex;
     width: 95%;
     flex-direction: row;
@@ -16,6 +16,7 @@
 .foodCardespecial .textArea {
     width: 90%;
 }
+
 .foodCardespecial .foodArea{
     width: 90%;
 }
@@ -89,4 +90,11 @@
     width: 100%;
     height: auto;
     border-radius: 15px;
+}
+
+.mixCardcomun .textArea{
+    width: 100%;
+}
+.mixCardcomun .foodArea{
+    width: 0%;
 }

@@ -2,7 +2,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { Header, Footer, MainMenuSection } from '../components'
 
 const Rutas = ({data, idioma, changeIdioma}) => {
-    console.log(data)
   return (
     <BrowserRouter>
         <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma}/>
