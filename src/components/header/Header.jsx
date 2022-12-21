@@ -29,7 +29,7 @@ const header = ({idioma, changeIdioma, data}) => {
               )
             }
             return(
-              <Link to={{pathname:"/", hash:e.link}} key={i}>
+              <Link to={{pathname:`/${e.link}`, }} key={i}>
                 <img src={e.img} alt={"icon"} />
                 <p>{e.nombre[idioma]}</p>
               </Link>
