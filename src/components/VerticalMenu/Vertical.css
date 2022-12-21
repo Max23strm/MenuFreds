@@ -1,0 +1,11 @@
+.VerticalMenu{
+    background-color: #eaad28;
+    position: absolute;
+    display: flex;
+    display:none;
+    flex-direction: column;
+    width: 90%;
+    height: 90vh;
+    right: 0;
+    z-index: 10;
+}
