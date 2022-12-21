@@ -8,10 +8,15 @@ import './MainMenuSection.css'
 const MainMenuSection = ({idioma, data}) => {
   const [datos, setDatos] = useState([])
   let {id}= useParams()
-  if(id==="mixologia" && id==="postres"){
-    setDatos(data.id)
+  if (id){
+
+    if(id==="mixologia" && id==="postres"){
+      setDatos(data.id)
+    } else{
+      setDatos(data.menu.id)
+    }
   } else{
-    setDatos(data.menu.id)
+    setDatos(data)
   }
 
   return (
