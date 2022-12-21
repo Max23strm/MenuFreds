@@ -7,67 +7,67 @@ let data= {
   header:[
     {
     nombre:{es:"Entradas frías", en:"Appetizers Fresh"},
-    link:"#frias",
+    link:"frias",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-1.svg"
     },
     {
     nombre:{es:"Entradas Calientes", en:"Appetizers hot"},
-    link:"#calientes",
+    link:"calientes",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-2.svg"
     },
     {
     nombre:{es:"Frescos", en:"Raw bar"},
-    link:"#frescos",
+    link:"frescos",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-3.svg"
     },
     {
     nombre:{es:"Tacos", en:"Tacos & Quesadillas"},
-    link:"#tacos",
+    link:"tacos",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-4.svg"
     },
     {
     nombre:{es:"Sopas & Ensaladas", en:"Soups & Salads"},
-    link:"#sopas",
+    link:"sopas",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-5.svg"
     },
     {
     nombre:{es:"Langostas", en:"Lobsters"},
-    link:"#langostas",
+    link:"langostas",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-7.svg"
     },
     {
     nombre:{es:"Pesca del día", en:"Catch of the day"},
-    link:"#pescadeldia",
+    link:"pescadeldia",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-6.svg"
     },
     {
     nombre:{es:"Arroz y pastas", en:"Rice & Pasta"},
-    link:"#arrozypastas",
+    link:"arrozypastas",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-9.svg"
     },
     {
     nombre:{es:"Principales", en:"Main Courses"},
-    link:"#principales",
+    link:"principales",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-8.svg"
     },
     {
     nombre:{es:"Selecciones Premium", en:"Premium Selects"},
-    link:"#selecionespremium",
+    link:"selecionespremium",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-11.svg"
     },
     {
     nombre:{es:"Complementos", en:"Sides"},
-    link:"#complementos",
+    link:"complementos",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-10.svg"
     },
     {
     nombre:{es:"Postres", en:"Desserts"},
-    link:"/postres",
+    link:"postres",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON_POSTRE.svg"
     },
     {
     nombre:{es:"Mixología", en:"Mixology"},
-    link:"/mixologia",
+    link:"mixologia",
     img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON-MIXO.svg"
     },
     {
@@ -698,7 +698,7 @@ platos:[
                   ]
                 },
 ],
-Postres:[{
+postres:[{
   nombre: {es:"POSTRES",en:"DESSERTS"},
     id:"postres",
     platos:[
@@ -782,7 +782,7 @@ Postres:[{
   ]
 }
 ],
-Mixologia:[{
+mixologia:[{
 nombre: {es:"Mixología", en:"Mixology"},
 platos:[
     {
