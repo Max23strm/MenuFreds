@@ -1,10 +1,9 @@
+
 import { MenuList } from '..'
 
 import './MainMenuSection.css'
 
 const MainMenuSection = ({idioma, data}) => {
-  console.log(data)
-
   return (
     <section className='MainMenuSection'>
 
