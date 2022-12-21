@@ -9,6 +9,7 @@ function App({data}) {
     idioma==="es"? setIdioma("en") : setIdioma("es")
   } 
   
+  
   return (
     <div className="App">
       <Rutas data={data} idioma={idioma} changeIdioma={changeIdioma}/>

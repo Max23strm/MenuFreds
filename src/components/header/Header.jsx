@@ -1,5 +1,5 @@
 import Flickity from "react-flickity-component";
-import { Link} from "react-router-dom";
+import { Link,} from "react-router-dom";
 import {VerticalMenu} from '../index'
 
 import './Header.css'
@@ -7,7 +7,6 @@ import './Header.css'
 const Header = ({idioma, changeIdioma, data}) => {
   const option={pageDots: false, cellAlign: 'left', wrapAround:true,selectedAttraction: 0.2,groupCells: "90%",friction: 0.8}
   
-
   return (
     <header className={`grupoHeader`}>
       <section className={`grupoTopHeader`}>
@@ -23,17 +22,17 @@ const Header = ({idioma, changeIdioma, data}) => {
           {data.map((e,i)=>{
             if(e.link==="/mixologia" || e.link==="/postres"){
               return(
-                <Link to={{pathname:e.link}} key={i} >
+                <Link to={`${e.link}`} key={i}>
                   <img src={e.img} alt={"icon"} />
                   <p>{e.nombre[idioma]}</p>
                 </Link>
               )
             }
             return(
-              <Link to={`/${e.link}`} key={i}>
+              <a href={`/${e.link}`} key={i} >
                 <img src={e.img} alt={"icon"} />
                 <p>{e.nombre[idioma]}</p>
-              </Link>
+              </a>
             )
           })}
         </Flickity>

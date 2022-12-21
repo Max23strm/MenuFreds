@@ -3,6 +3,7 @@ import { Header, Footer, MainMenuSection } from '../components'
 
 const Rutas = ({data, idioma, changeIdioma}) => {
   
+  
   return (
     <BrowserRouter>
         <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma}/>

@@ -4,6 +4,7 @@ import { MenuList } from '..'
 import './MainMenuSection.css'
 
 const MainMenuSection = ({idioma, data}) => {
+  
   return (
     <section className='MainMenuSection'>
 
