@@ -4,78 +4,79 @@ import './index.css';
 import App from './App';
 
 let data= {
-  header:[
-    {
-    nombre:{es:"Entradas frías", en:"Appetizers Fresh"},
-    link:"frias",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-1.svg"
-    },
-    {
-    nombre:{es:"Entradas Calientes", en:"Appetizers hot"},
-    link:"calientes",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-2.svg"
-    },
-    {
-    nombre:{es:"Frescos", en:"Raw bar"},
-    link:"frescos",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-3.svg"
-    },
-    {
-    nombre:{es:"Tacos", en:"Tacos & Quesadillas"},
-    link:"tacos",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-4.svg"
-    },
-    {
-    nombre:{es:"Sopas & Ensaladas", en:"Soups & Salads"},
-    link:"sopas",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-5.svg"
-    },
-    {
-    nombre:{es:"Langostas", en:"Lobsters"},
-    link:"langostas",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-7.svg"
-    },
-    {
-    nombre:{es:"Pesca del día", en:"Catch of the day"},
-    link:"pescadeldia",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-6.svg"
-    },
-    {
-    nombre:{es:"Arroz y pastas", en:"Rice & Pasta"},
-    link:"arrozypastas",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-9.svg"
-    },
-    {
-    nombre:{es:"Principales", en:"Main Courses"},
-    link:"principales",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-8.svg"
-    },
-    {
-    nombre:{es:"Selecciones Premium", en:"Premium Selects"},
-    link:"selecionespremium",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-11.svg"
-    },
-    {
-    nombre:{es:"Complementos", en:"Sides"},
-    link:"complementos",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-10.svg"
-    },
-    {
-    nombre:{es:"Postres", en:"Desserts"},
-    link:"postres",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON_POSTRE.svg"
-    },
-    {
-    nombre:{es:"Mixología", en:"Mixology"},
-    link:"mixologia",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON-MIXO.svg"
-    },
-    {
-    nombre:{es:"Destilados", en:"Spirits"},
-    link:"https://fredshouserestaurant.com/menudigital/destilados.pdf",
-    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON-MIXO.svg"
-    },
-  ], 
+header:
+[
+  {
+  nombre:{es:"Entradas frías", en:"Appetizers Fresh"},
+  link:"frias",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-1.svg"
+  },
+  {
+  nombre:{es:"Entradas Calientes", en:"Appetizers hot"},
+  link:"calientes",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-2.svg"
+  },
+  {
+  nombre:{es:"Frescos", en:"Raw bar"},
+  link:"frescos",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-3.svg"
+  },
+  {
+  nombre:{es:"Tacos", en:"Tacos & Quesadillas"},
+  link:"tacos",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-4.svg"
+  },
+  {
+  nombre:{es:"Sopas & Ensaladas", en:"Soups & Salads"},
+  link:"sopas",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-5.svg"
+  },
+  {
+  nombre:{es:"Langostas", en:"Lobsters"},
+  link:"langostas",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-7.svg"
+  },
+  {
+  nombre:{es:"Pesca del día", en:"Catch of the day"},
+  link:"pescadeldia",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-6.svg"
+  },
+  {
+  nombre:{es:"Arroz y pastas", en:"Rice & Pasta"},
+  link:"arrozypastas",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-9.svg"
+  },
+  {
+  nombre:{es:"Principales", en:"Main Courses"},
+  link:"principales",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-8.svg"
+  },
+  {
+  nombre:{es:"Selecciones Premium", en:"Premium Selects"},
+  link:"selecionespremium",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-11.svg"
+  },
+  {
+  nombre:{es:"Complementos", en:"Sides"},
+  link:"complementos",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/06/ICON.FREDSMesa-de-trabajo-10.svg"
+  },
+  {
+  nombre:{es:"Postres", en:"Desserts"},
+  link:"postres",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON_POSTRE.svg"
+  },
+  {
+  nombre:{es:"Mixología", en:"Mixology"},
+  link:"mixologia",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON-MIXO.svg"
+  },
+  {
+  nombre:{es:"Destilados", en:"Spirits"},
+  link:"https://fredshouserestaurant.com/menudigital/destilados.pdf",
+  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/ICON-MIXO.svg"
+  },
+], 
 menu:[{
   nombre: {es:"Frías",en:"Fresh"},
   id:"frias",
@@ -262,7 +263,8 @@ platos:[
         img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Ceviche-Caribeno-FREDS.jpg"
       },
     ]
-  },{
+  },
+  {
     nombre: {es:"TACOS & QUESADILLAS",en:"TACOS & QUESADILLAS"},
     id:"tacos",
     platos:[
@@ -314,7 +316,9 @@ platos:[
         tipo:"comun",
         img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/LOBSTER-QUESADILLAS-1.jpg"
         },
-    ]},{
+    ]
+  },
+  {
     nombre: {es:"SOPAS & ENSALADAS",en:"SOUPS & SALADS"},
     id:"sopas",
     platos:[
@@ -344,359 +348,365 @@ platos:[
         img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/crema-de-langosta-freds.jpg"
         },
       ]
-    },{
-      nombre: {es:"LANGOSTAS",en:"LOBSTERS"},
-      sub1:{es:"¡LAS JOYAS DE FRED’S!",en:"A FRED’S MUST!"},
-      sub2:{es:"EL ÚNICO RESTAURANTE EN CANCÚN CON 6 PREPARACIONES DIFERENTES. ",en:"THE ONLY RESTAURANT IN CANCUN WITH 6 DIFFERENT PREPARATIONS"},
-      id:"langostas",
-      platos:[
-          {
-          nombre:{es:"THERMIDOR SUPREME", en:"THERMIDOR SUPREME"},
-          qty:{es:"800 g", en:"28 oz"},
-          descripcion:{es:"Mantequilla, champiñones, salsa bechamel y mozzarella. Flameada con brandy", en:"Butter, mushrooms, bechamel sauce and mozzarella. Flamed with brandy"},
-          precio:"2,200",
+  },
+  {
+    nombre: {es:"LANGOSTAS",en:"LOBSTERS"},
+    sub1:{es:"¡LAS JOYAS DE FRED’S!",en:"A FRED’S MUST!"},
+    sub2:{es:"EL ÚNICO RESTAURANTE EN CANCÚN CON 6 PREPARACIONES DIFERENTES. ",en:"THE ONLY RESTAURANT IN CANCUN WITH 6 DIFFERENT PREPARATIONS"},
+    id:"langostas",
+    platos:[
+        {
+        nombre:{es:"THERMIDOR SUPREME", en:"THERMIDOR SUPREME"},
+        qty:{es:"800 g", en:"28 oz"},
+        descripcion:{es:"Mantequilla, champiñones, salsa bechamel y mozzarella. Flameada con brandy", en:"Butter, mushrooms, bechamel sauce and mozzarella. Flamed with brandy"},
+        precio:"2,200",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/THERMIDOR-SUPREME.jpg"
+        },
+        {
+        nombre:{es:"COLA DE LANGOSTA CARIBEÑA", en:"CARIBBEAN LOBSTER TAIL"},
+        qty:{es:"300 g", en:"10.5 oz"},
+        descripcion:{es:["Preparaciones a elegir","Al mojo de ajo","A la talla","A la mantequilla","Asada al carbón","Al vapor "], en:["To choose from", "Garlic mojo","Butter","Grilled","Steamed","Adobo chilli"]},
+        precio:"1,400",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/THERMIDOR-SUPREME.jpg"
+        },
+      ]
+  },
+  {
+    nombre: {es:"LOBSTER ROLLS & BURGERS",en:"LOBSTER ROLLS & BURGERS"},
+    platos:[
+        {
+        nombre:{es:"HAMBURGUESA DE RIB EYE", en:"RIB EYE BURGUER"},
+        qty:{es:"200 g", en:"7 oz"},
+        descripcion:{es:"Queso mozzarella, aderezo de roquefort, salsa de carne con jerez y ensalada de arúgula. Con papas fritas, aderezo de carne y queso parmesano", en:"Mozzarella cheese, roquefort dressing, gravy with sherry sauce and arugula salad. With french fries, gravy dressing and parmesan cheese "},
+        precio:"420",
+        tipo:"comun",
+        video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/HAMBURGUESA_480x854_FREDS.mp4"
+        },
+        {
+        nombre:{es:"RED HOOK ROLL", en:"RED HOOK ROLL"},
+        qty:null,
+        descripcion:{es:"Cola de langosta (150 g), apio, limón, mayonesa, mantequilla, cebollín y mostaza Dijon", en:"Lobster tail (4 oz), celery, lemon, mayonnaise, butter, chives and Dijon mustard "},
+        precio:"620",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Red-hook-roll-freds.jpg"
+        },
+        {
+        nombre:{es:"CLASSIC ROLL", en:"CLASSIC ROLL"},
+        qty:null,
+        descripcion:{es:"Cola de langosta (150 g) a la mantequilla, con ensalada de col: Zanahoria, manzana, limón y mayonesa", en:"Lobster tail (4 oz) in butter, with coleslaw: Carrot, apple, lemon and mayonnaise"},
+        precio:"620",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/clasic-roll-freds.jpg"
+        },
+        {
+        nombre:{es:"HAMBURGUESA DE SALMÓN", en:"SALMON BURGUER"},
+        qty:{es:"200 g", en:"7 oz"},
+        descripcion:{es:"Mayonesa de jengibre-mostaza, salsa de tomate, queso mozzarella y ensalada de arúgula. Con papas fritas, mayonesa de jengibre-sriracha y mousse de aguacate ", en:"Ginger mustard mayonnaise, tomato sauce, mozzarella cheese and arugula salad. With french fries, sriracha-ginger mayonnaise and avocado mousse "},
+        precio:"320",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/HAMBURGUESA-DE-SALMON.jpg"
+        },
+      ]
+  },
+  {
+    nombre: {es:"PESCA DEL DÍA",en:"CATCH OF THE DAY"},
+    id:"pescadeldia",
+    platos:[
+        {
+        nombre:{es:"PESCADO ENTERO", en:"FISH"},
+        qty:{es:"850 g", en:"30 oz"},
+        descripcion:{es:["Preparaciones a elegir", "Frito con hojuelas de ajo", "A la talla", "A la sal flameado "], en:["To choose from", "Fried with garlic flakes", "Grilled with guajillo chilli", "Flamed with salt"]},
+        precio:"880",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/elementor/thumbs/pescado-pvccy6m4immazpghfp4yb4y9usc0n4hpnoektam9oo.jpg"
+        },
+        {
+        nombre:{es:"ALASKAN KING CRAB", en:"ALASKAN KING CRAB"},
+        qty:{es:"350 g", en:"12 oz"},
+        descripcion:{es:["Preparaciones a elegir","Natural","Mantequilla con hoja santa","Mojo de ajo","Asado al carbón "], en:["To choose from","Natural","Butter with scent leaf","Garlic sauce","Grilled"]},
+        precio:"2,800",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Alaskan-king-crab-freds.jpg"
+        },
+        {
+        nombre:{es:"MANOS DE CANGREJO MORO", en:"STONE CRAB"},
+        qty:{es:"400 g", en:"14 oz"},
+        descripcion:{es:["Preparaciones a elegir","Frescas con Aliño de lima","A la mantequilla","Flameadas con whiskey"], en:["To choose from","Fresh with lime dressing","Butter","Flamed with whiskey"]},
+        precio:"740",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/manos-de-cangrejo-moro-freds-1.jpg"
+        }
+      ]
+  },
+  {
+    nombre: {es:"ARROZ Y PASTA",en:"RICE & PASTA"},
+    id:"arrozypastas",
+    platos:[
+        {
+        nombre:{es:"PAELLA DI MARE ", en:"PAELLA DI MARE"},
+        qty:null,
+        descripcion:{es:"Arroz redondo con pescado, camarones, pulpo, mejillones, almeja, calamar, pollo, cerdo, pimiento, chícharos y ejotes ", en:"Grouper fish, shrimps, octopus, black mussels, clams, calamari, chicken, pork, bell pepper, peas and green beans "},
+        precio:"480",
+        tipo:"comun",
+        video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/PAELLA_480x854_FREDS.mp4"
+        },
+        {
+        nombre:{es:"ARROZ A LA TUMBADA", en:"TUMBADA RICE"},
+        qty:null,
+        descripcion:{es:"Mejillones negros, camarones, almejas chirlas, jaiba entera y pulpo ", en:"Black mussels, shrimps, clams, whole crab and octopus "},
+        precio:"420",
+        tipo:"comun",
+        },
+        {
+        nombre:{es:"RISOTTO", en:"RISOTTO"},
+        qty:null,
+        descripcion:{es:"Champiñones salteados, setas y vino blanco (vegano)", en:"Sautéed mushrooms and white wine"},
+        precio:"360",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/IMG_8318.jpg"
+        },
+        {
+        nombre:{es:"RISOTTO DE CALLO DE HACHA", en:"SCALLOPS RISOTTO"},
+        qty:{es:"", en:"14 oz"},
+        descripcion:{es:"Setas, espárragos, vino blanco, queso parmesano y aceite de trufa", en:"Mushrooms, asparagus, white wine, parmesan cheese and truffle oil"},
+        precio:"380",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/risotto-1024x1024.jpg"
+        },
+        {
+        nombre:{es:"MAC & CHEESE CON LANGOSTA", en:"LOBSTER MAC & CHEESE"},
+        qty:null,
+        descripcion:null,
+        precio:"620",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Mac-and-chesse-langosta-freds.jpg"
+        },
+        {
+        nombre:{es:"FRED-TTUCCINI CON CAMARONES", en:"SHRIMP FRED-TUCCINI"},
+        qty:{es:"", en:"14 oz"},
+        descripcion:{es:"Salsa de queso y vino blanco", en:"Cheese blend and white wine"},
+        precio:"360",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/freddtuccini.jpg"
+        },
+        {
+        nombre:{es:"CAPELLINI DE SALMÓN", en:"SALMON CAPELLINI"},
+        qty:null,
+        descripcion:{es:"Mantequilla de limón, chile seco, piñones, vino blanco y bocados de salmón",en:"Lemon butter, dried chili, pine nuts, white wine and salmon bites"},
+        precio:"390",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/capellinii-de-salmon-1.jpg"
+        },
+      ]
+  },
+  {
+    nombre: {es:"PRINCIPALES",en:"MAIN COURSES"},
+    id:"principales",
+    platos:[
+        {
+        nombre:{es:"FISH N’ CHIPS", en:"FISH N’ CHIPS"},
+        qty:{es:"180 g", en:""},
+        descripcion:{es:"Salsa de piña-mango y salsa tártara con papas fritas ", en:"Mango-pineapple sauce, tartar sauce and french fries"},
+        precio:"330",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Fish-n-chips-FREDS.jpg"
+        },
+        {
+        nombre:{es:"FILETE DE PESCADO A LOS TRES CHILES", en:"DRIED CHILLI-CRUSTED FISH FILLET"},
+        qty:{es:"250 g", en:"9 oz"},
+        descripcion:{es:"Con costra de chile pasilla, chipotle y morita", en:"Pasilla, chipotle and morita chili crust"},
+        precio:"480",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/filete-de-pescado-a-los-3-chiles-1024x1024.jpg"
+        },
+        {
+        nombre:{es:"FILETE DE PESCADO AL GUSTO", en:"FISH FILLET"},
+        qty:{es:"240 g", en:"9 oz"},
+        descripcion:{es:[null,"A la talla", "A la talla", "A la parrilla", "A la diabla"], en:[null,"Garlic mojo","Grilled","Adobo chili","A la diabla"]},
+        precio:"445",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Filete-al-gusto-freds.jpg"
+        },
+        {
+        nombre:{es:"SALMÓN A LA PARRILLA", en:"GRILLED SALMON"},
+        qty:{es:"285 g", en:"10 oz"},
+        descripcion:{es:"Salsa de pimientos rojos, espárragos y papas smash", en:"Red bell pepper sauce, asparagus and smashed potatoes"},
+        precio:"480",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/salmon-a-la-parrilla.jpg"
+        },
+        {
+        nombre:{es:"ATÚN MIGNON", en:"TUNA MIGNON"},
+        qty:{es:"285 g", en:"5 oz"},
+        descripcion:{es:"Envuelto en tocino, sellado a la plancha. Con puré de papa, espárragos a la mantequilla, tomates cherry tatemados y salsa de jerez", en:"Wrapped in bacon, seared on the grill. With mashed potatoes, buttered asparagus, roasted cherry tomatoes and sherry sauce "},
+        precio:"420",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/salmon-a-la-parrilla.jpg"
+        },
+        {
+        nombre:{es:"ENCHILADAS DE CANGREJO", en:"CRAB ENCHILADAS"},
+        qty:{es:"3 pzas", en:"3 pcs"},
+        descripcion:{es:"Tortilla de maíz. Con mezcla de quesos, tocino y pulpa de cangrejo Lump", en:"In corn tortillas with cheese blend, bacon and Lump crab meat"},
+        precio:"480",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Enchiladas-cangrejo.jpg"
+        },
+        {
+        nombre:{es:"PULPO CON TUÉTANO", en:"OCTOPUS WITH BONE MARROW"},
+        qty:{es:"280 g", en:"10 oz"},
+        descripcion:{es:"Marinado con salsa talla, tomate asado y aceite de oliva", en:"Adobo chili sauce, roasted tomato and olive oil"},
+        precio:"850",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/PULPO-EN-TUETANO-FREDS.jpg"
+        },
+        {
+        nombre:{es:"CAMARONES MOJO", en:"MOJO SHRIMP"},
+        qty:{es:"200 g", en:"7 oz"},
+        descripcion:{es:"Preparados al mojo de ajo. Con crocante de plátano macho y arroz negro", en:"Garlic sauce, crispy plantain and black rice"},
+        precio:"380",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/IMG_7508.jpg"
+        },
+        {
+        nombre:{es:"CAMARONES COCOCRUJIENTES", en:"FLAMED CRISPY COCONUT SHRIMP"},
+        qty:{es:"200 g", en:"7 oz"},
+        descripcion:{es:"Con coco, salsa de piña habanero y arroz primavera. Flameados con ron en mesa", en:"Coconut and habanero pineapple sauce. With spring rice. Flamed tableside with rum"},
+        precio:"420",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/CAMARONES-COCO-CRUJIENTES-FREDS.jpg"
+        },
+        {
+        nombre:{es:"POLLO CRISPY", en:"CRISPY CHICKEN"},
+        qty:{es:"200 g", en:"7 oz"},
+        descripcion:{es:"Pechuga de pollo crujiente y gravy. Con puré de papa y elote amarillo a la parrilla", en:"Crispy chicken breast and gravy. With mashed potatoes and grilled yellow corn"},
+        precio:"280",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/pollo-crispy-1.jpg"
+        },
+        {
+        nombre:{es:"FILETE MIGNON", en:"MIGNON FILETE"},
+        qty:{es:"225 g", en:"8 oz"},
+        descripcion:{es:"Con salsa de jerez y champiñones ", en:"Sherry sauce and mushrooms"},
+        precio:"640",
+        tipo:"comun",
+        },
+        {
+          nombre:{es:"RIB EYE", en:"RIB EYE"},
+          qty:{es:"350 g", en:"12 oz"},
+          descripcion:{es:"Con elote amarillo a la parrilla y miel mostaza ", en:"Grilled yellow corn and honey mustard"},
+          precio:"780",
           tipo:"comun",
-          img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/THERMIDOR-SUPREME.jpg"
-          },
-          {
-          nombre:{es:"COLA DE LANGOSTA CARIBEÑA", en:"CARIBBEAN LOBSTER TAIL"},
-          qty:{es:"300 g", en:"10.5 oz"},
-          descripcion:{es:["Preparaciones a elegir","Al mojo de ajo","A la talla","A la mantequilla","Asada al carbón","Al vapor "], en:["To choose from", "Garlic mojo","Butter","Grilled","Steamed","Adobo chilli"]},
-          precio:"1,400",
-          tipo:"comun",
-          img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/THERMIDOR-SUPREME.jpg"
-          },
-        ]
-      },{
-        nombre: {es:"LOBSTER ROLLS & BURGERS",en:"LOBSTER ROLLS & BURGERS"},
-        platos:[
-            {
-            nombre:{es:"HAMBURGUESA DE RIB EYE", en:"RIB EYE BURGUER"},
-            qty:{es:"200 g", en:"7 oz"},
-            descripcion:{es:"Queso mozzarella, aderezo de roquefort, salsa de carne con jerez y ensalada de arúgula. Con papas fritas, aderezo de carne y queso parmesano", en:"Mozzarella cheese, roquefort dressing, gravy with sherry sauce and arugula salad. With french fries, gravy dressing and parmesan cheese "},
-            precio:"420",
-            tipo:"comun",
-            video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/HAMBURGUESA_480x854_FREDS.mp4"
-            },
-            {
-            nombre:{es:"RED HOOK ROLL", en:"RED HOOK ROLL"},
-            qty:null,
-            descripcion:{es:"Cola de langosta (150 g), apio, limón, mayonesa, mantequilla, cebollín y mostaza Dijon", en:"Lobster tail (4 oz), celery, lemon, mayonnaise, butter, chives and Dijon mustard "},
-            precio:"620",
-            tipo:"comun",
-            img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Red-hook-roll-freds.jpg"
-            },
-            {
-            nombre:{es:"CLASSIC ROLL", en:"CLASSIC ROLL"},
-            qty:null,
-            descripcion:{es:"Cola de langosta (150 g) a la mantequilla, con ensalada de col: Zanahoria, manzana, limón y mayonesa", en:"Lobster tail (4 oz) in butter, with coleslaw: Carrot, apple, lemon and mayonnaise"},
-            precio:"620",
-            tipo:"comun",
-            img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/clasic-roll-freds.jpg"
-            },
-            {
-            nombre:{es:"HAMBURGUESA DE SALMÓN", en:"SALMON BURGUER"},
-            qty:{es:"200 g", en:"7 oz"},
-            descripcion:{es:"Mayonesa de jengibre-mostaza, salsa de tomate, queso mozzarella y ensalada de arúgula. Con papas fritas, mayonesa de jengibre-sriracha y mousse de aguacate ", en:"Ginger mustard mayonnaise, tomato sauce, mozzarella cheese and arugula salad. With french fries, sriracha-ginger mayonnaise and avocado mousse "},
-            precio:"320",
-            tipo:"comun",
-            img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/HAMBURGUESA-DE-SALMON.jpg"
-            },
-          ]
-        },{
-          nombre: {es:"PESCA DEL DÍA",en:"CATCH OF THE DAY"},
-          id:"pescadeldia",
-          platos:[
-              {
-              nombre:{es:"PESCADO ENTERO", en:"FISH"},
-              qty:{es:"850 g", en:"30 oz"},
-              descripcion:{es:["Preparaciones a elegir", "Frito con hojuelas de ajo", "A la talla", "A la sal flameado "], en:["To choose from", "Fried with garlic flakes", "Grilled with guajillo chilli", "Flamed with salt"]},
-              precio:"880",
-              tipo:"comun",
-              img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/elementor/thumbs/pescado-pvccy6m4immazpghfp4yb4y9usc0n4hpnoektam9oo.jpg"
-              },
-              {
-              nombre:{es:"ALASKAN KING CRAB", en:"ALASKAN KING CRAB"},
-              qty:{es:"350 g", en:"12 oz"},
-              descripcion:{es:["Preparaciones a elegir","Natural","Mantequilla con hoja santa","Mojo de ajo","Asado al carbón "], en:["To choose from","Natural","Butter with scent leaf","Garlic sauce","Grilled"]},
-              precio:"2,800",
-              tipo:"comun",
-              img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Alaskan-king-crab-freds.jpg"
-              },
-              {
-              nombre:{es:"MANOS DE CANGREJO MORO", en:"STONE CRAB"},
-              qty:{es:"400 g", en:"14 oz"},
-              descripcion:{es:["Preparaciones a elegir","Frescas con Aliño de lima","A la mantequilla","Flameadas con whiskey"], en:["To choose from","Fresh with lime dressing","Butter","Flamed with whiskey"]},
-              precio:"740",
-              tipo:"comun",
-              img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/manos-de-cangrejo-moro-freds-1.jpg"
-              }
-            ]
-          },{
-            nombre: {es:"ARROZ Y PASTA",en:"RICE & PASTA"},
-            id:"arrozypastas",
-            platos:[
-                {
-                nombre:{es:"PAELLA DI MARE ", en:"PAELLA DI MARE"},
-                qty:null,
-                descripcion:{es:"Arroz redondo con pescado, camarones, pulpo, mejillones, almeja, calamar, pollo, cerdo, pimiento, chícharos y ejotes ", en:"Grouper fish, shrimps, octopus, black mussels, clams, calamari, chicken, pork, bell pepper, peas and green beans "},
-                precio:"480",
-                tipo:"comun",
-                video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/PAELLA_480x854_FREDS.mp4"
-                },
-                {
-                nombre:{es:"ARROZ A LA TUMBADA", en:"TUMBADA RICE"},
-                qty:null,
-                descripcion:{es:"Mejillones negros, camarones, almejas chirlas, jaiba entera y pulpo ", en:"Black mussels, shrimps, clams, whole crab and octopus "},
-                precio:"420",
-                tipo:"comun",
-                },
-                {
-                nombre:{es:"RISOTTO", en:"RISOTTO"},
-                qty:null,
-                descripcion:{es:"Champiñones salteados, setas y vino blanco (vegano)", en:"Sautéed mushrooms and white wine"},
-                precio:"360",
-                tipo:"comun",
-                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/IMG_8318.jpg"
-                },
-                {
-                nombre:{es:"RISOTTO DE CALLO DE HACHA", en:"SCALLOPS RISOTTO"},
-                qty:{es:"", en:"14 oz"},
-                descripcion:{es:"Setas, espárragos, vino blanco, queso parmesano y aceite de trufa", en:"Mushrooms, asparagus, white wine, parmesan cheese and truffle oil"},
-                precio:"380",
-                tipo:"comun",
-                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/09/risotto-1024x1024.jpg"
-                },
-                {
-                nombre:{es:"MAC & CHEESE CON LANGOSTA", en:"LOBSTER MAC & CHEESE"},
-                qty:null,
-                descripcion:null,
-                precio:"620",
-                tipo:"comun",
-                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Mac-and-chesse-langosta-freds.jpg"
-                },
-                {
-                nombre:{es:"FRED-TTUCCINI CON CAMARONES", en:"SHRIMP FRED-TUCCINI"},
-                qty:{es:"", en:"14 oz"},
-                descripcion:{es:"Salsa de queso y vino blanco", en:"Cheese blend and white wine"},
-                precio:"360",
-                tipo:"comun",
-                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/freddtuccini.jpg"
-                },
-                {
-                nombre:{es:"CAPELLINI DE SALMÓN", en:"SALMON CAPELLINI"},
-                qty:null,
-                descripcion:{es:"Mantequilla de limón, chile seco, piñones, vino blanco y bocados de salmón",en:"Lemon butter, dried chili, pine nuts, white wine and salmon bites"},
-                precio:"390",
-                tipo:"comun",
-                img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/capellinii-de-salmon-1.jpg"
-                },
-              ]
-            },{
-              nombre: {es:"PRINCIPALES",en:"MAIN COURSES"},
-              id:"principales",
-              platos:[
-                  {
-                  nombre:{es:"FISH N’ CHIPS", en:"FISH N’ CHIPS"},
-                  qty:{es:"180 g", en:""},
-                  descripcion:{es:"Salsa de piña-mango y salsa tártara con papas fritas ", en:"Mango-pineapple sauce, tartar sauce and french fries"},
-                  precio:"330",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Fish-n-chips-FREDS.jpg"
-                  },
-                  {
-                  nombre:{es:"FILETE DE PESCADO A LOS TRES CHILES", en:"DRIED CHILLI-CRUSTED FISH FILLET"},
-                  qty:{es:"250 g", en:"9 oz"},
-                  descripcion:{es:"Con costra de chile pasilla, chipotle y morita", en:"Pasilla, chipotle and morita chili crust"},
-                  precio:"480",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/filete-de-pescado-a-los-3-chiles-1024x1024.jpg"
-                  },
-                  {
-                  nombre:{es:"FILETE DE PESCADO AL GUSTO", en:"FISH FILLET"},
-                  qty:{es:"240 g", en:"9 oz"},
-                  descripcion:{es:[null,"A la talla", "A la talla", "A la parrilla", "A la diabla"], en:[null,"Garlic mojo","Grilled","Adobo chili","A la diabla"]},
-                  precio:"445",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Filete-al-gusto-freds.jpg"
-                  },
-                  {
-                  nombre:{es:"SALMÓN A LA PARRILLA", en:"GRILLED SALMON"},
-                  qty:{es:"285 g", en:"10 oz"},
-                  descripcion:{es:"Salsa de pimientos rojos, espárragos y papas smash", en:"Red bell pepper sauce, asparagus and smashed potatoes"},
-                  precio:"480",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/salmon-a-la-parrilla.jpg"
-                  },
-                  {
-                  nombre:{es:"ATÚN MIGNON", en:"TUNA MIGNON"},
-                  qty:{es:"285 g", en:"5 oz"},
-                  descripcion:{es:"Envuelto en tocino, sellado a la plancha. Con puré de papa, espárragos a la mantequilla, tomates cherry tatemados y salsa de jerez", en:"Wrapped in bacon, seared on the grill. With mashed potatoes, buttered asparagus, roasted cherry tomatoes and sherry sauce "},
-                  precio:"420",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/salmon-a-la-parrilla.jpg"
-                  },
-                  {
-                  nombre:{es:"ENCHILADAS DE CANGREJO", en:"CRAB ENCHILADAS"},
-                  qty:{es:"3 pzas", en:"3 pcs"},
-                  descripcion:{es:"Tortilla de maíz. Con mezcla de quesos, tocino y pulpa de cangrejo Lump", en:"In corn tortillas with cheese blend, bacon and Lump crab meat"},
-                  precio:"480",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Enchiladas-cangrejo.jpg"
-                  },
-                  {
-                  nombre:{es:"PULPO CON TUÉTANO", en:"OCTOPUS WITH BONE MARROW"},
-                  qty:{es:"280 g", en:"10 oz"},
-                  descripcion:{es:"Marinado con salsa talla, tomate asado y aceite de oliva", en:"Adobo chili sauce, roasted tomato and olive oil"},
-                  precio:"850",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/PULPO-EN-TUETANO-FREDS.jpg"
-                  },
-                  {
-                  nombre:{es:"CAMARONES MOJO", en:"MOJO SHRIMP"},
-                  qty:{es:"200 g", en:"7 oz"},
-                  descripcion:{es:"Preparados al mojo de ajo. Con crocante de plátano macho y arroz negro", en:"Garlic sauce, crispy plantain and black rice"},
-                  precio:"380",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/IMG_7508.jpg"
-                  },
-                  {
-                  nombre:{es:"CAMARONES COCOCRUJIENTES", en:"FLAMED CRISPY COCONUT SHRIMP"},
-                  qty:{es:"200 g", en:"7 oz"},
-                  descripcion:{es:"Con coco, salsa de piña habanero y arroz primavera. Flameados con ron en mesa", en:"Coconut and habanero pineapple sauce. With spring rice. Flamed tableside with rum"},
-                  precio:"420",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/CAMARONES-COCO-CRUJIENTES-FREDS.jpg"
-                  },
-                  {
-                  nombre:{es:"POLLO CRISPY", en:"CRISPY CHICKEN"},
-                  qty:{es:"200 g", en:"7 oz"},
-                  descripcion:{es:"Pechuga de pollo crujiente y gravy. Con puré de papa y elote amarillo a la parrilla", en:"Crispy chicken breast and gravy. With mashed potatoes and grilled yellow corn"},
-                  precio:"280",
-                  tipo:"comun",
-                  img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/pollo-crispy-1.jpg"
-                  },
-                  {
-                  nombre:{es:"FILETE MIGNON", en:"MIGNON FILETE"},
-                  qty:{es:"225 g", en:"8 oz"},
-                  descripcion:{es:"Con salsa de jerez y champiñones ", en:"Sherry sauce and mushrooms"},
-                  precio:"640",
-                  tipo:"comun",
-                  },
-                  {
-                    nombre:{es:"RIB EYE", en:"RIB EYE"},
-                    qty:{es:"350 g", en:"12 oz"},
-                    descripcion:{es:"Con elote amarillo a la parrilla y miel mostaza ", en:"Grilled yellow corn and honey mustard"},
-                    precio:"780",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/RIB-EYE-FREDS.jpg"
-                  },
-                  {
-                  nombre:{es:"CAMARONES COCOCRUJIENTES", en:"BEEF FILLET"},
-                  qty:{es:"600 g", en:"21 oz"},
-                  descripcion:{es:"De res, sellado en la parrilla. Con mantequilla de ajo rostizado y perejil. Preparado en mesa y flameado con mezcal", en:"Seared on the grill. With roasted garlic butter and parsley.Prepared tableside and flamed with mezcal"},
-                  precio:"1,350 ",
-                  tipo:"comun",
-                  },
-                  {
-                  nombre:{es:"GRAND TOMAHAWK", en:"GRAND TOMAHAWK"},
-                  qty:{es:"1.2 Kg", en:"41 oz"},
-                  descripcion:{es:"High Choice", en:"High Choice"},
-                  precio:"3,100",
-                  tipo:"comun",
-                  },
-                ]
-              },{
-                nombre: {es:"SELECCIONES PREMIUM",en:"PREMIUM SELECTS"},
-                id:"selecionespremium",
-                platos:[
-                    {
-                    nombre:{es:"FUENTE DE MARISCOS ROYAL", en:"SHELLFISH PLATTER"},
-                    qty:null,
-                    descripcion:{es:"Cangrejo de Alaska (250 g), manos de cangrejo moro (200 g), cola de langosta caribeña (150 g), camarones (150 g) y ostiones Costa Este (10 pzas) Con salsa tártara y razurada, salsa tropical con mango, mantequilla y salsa coctelera ", en:"Alaskan King Crab (9 oz), stone crab (7 oz), caribbean lobster tail (4.5 oz), shrimp (5 oz), East Coast oysters (10 pcs) tartar sauce, tropical sauce with mango, butter and cocktail sauce "},
-                    precio:"3,700",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/FUENTE-DE-MARISCOS-ROYAL-FREDS.jpg"
-                    },
-                    {
-                    nombre:{es:"MARISCADA", en:"SEAFOOD PLATTER"},
-                    qty:null,
-                    descripcion:{es:"A la parrilla. Cangrejo Alaska (250 g), cola de langosta caribeña (180 g), pulpo (150 g), filete de pescado (240 g), camarones (200 g) y vegetales. Incluye dos complementos a elegir", en:"Grilled. Alaskan king crab (9 oz), caribbean lobster tail (6 oz), octopus (5 oz), fish fillet (8.5 oz), shrimp (7 oz) and vegetables. Includes two sides to choose from"},
-                    precio:"4,100",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/SEADOOD-PLATER-FREDS-1.jpg"
-                    },
-                    {
-                    nombre:{es:"MAR Y TIERRA NEPTUNO", en:"NEPTUNE SURF AND TURF"},
-                    qty:null,
-                    descripcion:{es:"Cangrejo de Alaska (250 g), pulpo (150 g), camarones (200 g), cola de langosta caribeña (180 g) y vegetales. Incluye dos complementos a elegir", en:"Alaskan king crab (9 oz), octopus (5.5 oz), shrimp (7 oz), lobster tail (6 oz) and vegetables. Includes two sides to choose from"},
-                    extra:{es:["Elige tu corte:",[{variedad:"Rib Eye",	precio:"350 g"}, {variedad:"Filete de Res*",	precio:"225 g"}]], en:["CHOOSE YOUR MEAT CUT:", [{variedad:"Rib Eye",	precio:"12 oz"},{variedad:"Mignon Fillet",	precio:"8 oz"}]]},
-                    precio:"4,100",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/MAR-Y-TIERRA-freds-1.jpg"
-                    },
-                  ]
-                },
-                {
-                  nombre: {es:"COMPLEMENTOS",en:"SIDES"},
-                  id:"complementos",
-                  platos:[
-                    {
-                    nombre:{es:"Papa horneada", en:"Baked potato"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"180",
-                    tipo:"comun",
-                    video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/PAPA_480x854_FREDS.mp4"
-                    },
-                  
-                    {
-                    nombre:{es:"Arroz jazmín primavera", en:"Spring rice"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"110",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Arroz-primavera-freds.jpg"
-                    },
-                    {
-                    nombre:{es:"Elote asado", en:"Roasted corn"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"110",
-                    tipo:"comun",
-                    },
-                    {
-                      nombre:{es:"Ensalada fresca", en:"Fresh salad"},
-                      qty:null,
-                      descripcion:null,
-                      precio:"$80",
-                      tipo:"comun",
-                      img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/ensalada-freds.jpg"
-                    },
-                    {
-                    nombre:{es:"Espárragos a la parrilla", en:"Grilled asparagus"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"145",
-                    tipo:"comun",
-                    },
-                    {
-                    nombre:{es:"Vegetales salteados", en:"Sauteed vegetables"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"125",
-                    tipo:"comun",
-                    img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Vegetales-salteados-freds.jpg"
-                    },
-                    {
-                    nombre:{es:"Puré de papa", en:"Mashed potatoes"},
-                    qty:null,
-                    descripcion:null,
-                    precio:"130",
-                    tipo:"comun",
-                    },
-                  ]
-                },
+          img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/RIB-EYE-FREDS.jpg"
+        },
+        {
+        nombre:{es:"CAMARONES COCOCRUJIENTES", en:"BEEF FILLET"},
+        qty:{es:"600 g", en:"21 oz"},
+        descripcion:{es:"De res, sellado en la parrilla. Con mantequilla de ajo rostizado y perejil. Preparado en mesa y flameado con mezcal", en:"Seared on the grill. With roasted garlic butter and parsley.Prepared tableside and flamed with mezcal"},
+        precio:"1,350 ",
+        tipo:"comun",
+        },
+        {
+        nombre:{es:"GRAND TOMAHAWK", en:"GRAND TOMAHAWK"},
+        qty:{es:"1.2 Kg", en:"41 oz"},
+        descripcion:{es:"High Choice", en:"High Choice"},
+        precio:"3,100",
+        tipo:"comun",
+        },
+      ]
+  },
+  {
+    nombre: {es:"SELECCIONES PREMIUM",en:"PREMIUM SELECTS"},
+    id:"selecionespremium",
+    platos:[
+        {
+        nombre:{es:"FUENTE DE MARISCOS ROYAL", en:"SHELLFISH PLATTER"},
+        qty:null,
+        descripcion:{es:"Cangrejo de Alaska (250 g), manos de cangrejo moro (200 g), cola de langosta caribeña (150 g), camarones (150 g) y ostiones Costa Este (10 pzas) Con salsa tártara y razurada, salsa tropical con mango, mantequilla y salsa coctelera ", en:"Alaskan King Crab (9 oz), stone crab (7 oz), caribbean lobster tail (4.5 oz), shrimp (5 oz), East Coast oysters (10 pcs) tartar sauce, tropical sauce with mango, butter and cocktail sauce "},
+        precio:"3,700",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/FUENTE-DE-MARISCOS-ROYAL-FREDS.jpg"
+        },
+        {
+        nombre:{es:"MARISCADA", en:"SEAFOOD PLATTER"},
+        qty:null,
+        descripcion:{es:"A la parrilla. Cangrejo Alaska (250 g), cola de langosta caribeña (180 g), pulpo (150 g), filete de pescado (240 g), camarones (200 g) y vegetales. Incluye dos complementos a elegir", en:"Grilled. Alaskan king crab (9 oz), caribbean lobster tail (6 oz), octopus (5 oz), fish fillet (8.5 oz), shrimp (7 oz) and vegetables. Includes two sides to choose from"},
+        precio:"4,100",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/SEADOOD-PLATER-FREDS-1.jpg"
+        },
+        {
+        nombre:{es:"MAR Y TIERRA NEPTUNO", en:"NEPTUNE SURF AND TURF"},
+        qty:null,
+        descripcion:{es:"Cangrejo de Alaska (250 g), pulpo (150 g), camarones (200 g), cola de langosta caribeña (180 g) y vegetales. Incluye dos complementos a elegir", en:"Alaskan king crab (9 oz), octopus (5.5 oz), shrimp (7 oz), lobster tail (6 oz) and vegetables. Includes two sides to choose from"},
+        extra:{es:["Elige tu corte:",[{variedad:"Rib Eye",	precio:"350 g"}, {variedad:"Filete de Res*",	precio:"225 g"}]], en:["CHOOSE YOUR MEAT CUT:", [{variedad:"Rib Eye",	precio:"12 oz"},{variedad:"Mignon Fillet",	precio:"8 oz"}]]},
+        precio:"4,100",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/MAR-Y-TIERRA-freds-1.jpg"
+        },
+      ]
+  },
+  {
+    nombre: {es:"COMPLEMENTOS",en:"SIDES"},
+    id:"complementos",
+    platos:[
+      {
+      nombre:{es:"Papa horneada", en:"Baked potato"},
+      qty:null,
+      descripcion:null,
+      precio:"180",
+      tipo:"comun",
+      video:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/PAPA_480x854_FREDS.mp4"
+      },
+    
+      {
+      nombre:{es:"Arroz jazmín primavera", en:"Spring rice"},
+      qty:null,
+      descripcion:null,
+      precio:"110",
+      tipo:"comun",
+      img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/07/Arroz-primavera-freds.jpg"
+      },
+      {
+      nombre:{es:"Elote asado", en:"Roasted corn"},
+      qty:null,
+      descripcion:null,
+      precio:"110",
+      tipo:"comun",
+      },
+      {
+        nombre:{es:"Ensalada fresca", en:"Fresh salad"},
+        qty:null,
+        descripcion:null,
+        precio:"$80",
+        tipo:"comun",
+        img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/ensalada-freds.jpg"
+      },
+      {
+      nombre:{es:"Espárragos a la parrilla", en:"Grilled asparagus"},
+      qty:null,
+      descripcion:null,
+      precio:"145",
+      tipo:"comun",
+      },
+      {
+      nombre:{es:"Vegetales salteados", en:"Sauteed vegetables"},
+      qty:null,
+      descripcion:null,
+      precio:"125",
+      tipo:"comun",
+      img:"https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/08/Vegetales-salteados-freds.jpg"
+      },
+      {
+      nombre:{es:"Puré de papa", en:"Mashed potatoes"},
+      qty:null,
+      descripcion:null,
+      precio:"130",
+      tipo:"comun",
+      },
+    ]
+  },
 ],
 postres:[{
   nombre: {es:"POSTRES",en:"DESSERTS"},

@@ -11,7 +11,7 @@ const Rutas = ({data, idioma, changeIdioma}) => {
               path="/"
               exact 
               children={
-                <MainMenuSection idioma={idioma} data={data.menu}/>
+                <MainMenuSection idioma={idioma} data={data}/>
               }
             />
 

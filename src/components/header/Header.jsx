@@ -20,14 +20,6 @@ const Header = ({idioma, changeIdioma, data}) => {
           className={'carousel'}
           options={option}>
           {data.map((e,i)=>{
-            // if(e.link==="/mixologia" || e.link==="/postres"){
-            //   return(
-            //     <Link to={`${e.link}`} key={i}>
-            //       <img src={e.img} alt={"icon"} />
-            //       <p>{e.nombre[idioma]}</p>
-            //     </Link>
-            //   )
-            // }
             return(
               <Link to={`/${e.link}`} key={i} >
                 <img src={e.img} alt={"icon"} />
