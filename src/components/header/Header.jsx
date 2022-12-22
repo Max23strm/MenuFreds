@@ -10,7 +10,7 @@ const Header = ({idioma, changeIdioma, data,handleMenuClick}) => {
     <header className={`grupoHeader`}>
       <section className={`grupoTopHeader`}>
         <button onClick={changeIdioma}>{idioma==="es"? "EN" : "ES"}</button>
-        <Link className="logoA" to={"/"}>
+        <Link className="logoA" to={"/menu"}>
           <img src="https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/05/freds-restaurant-logo-1024x454-1.png" alt="logo"  className={`grupoHaderLogo`}/>
         </Link>
         <button onClick={handleMenuClick}>
