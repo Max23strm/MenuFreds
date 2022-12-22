@@ -1,17 +1,19 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import './Vertical.css'
 
-const VerticalMenu = ({idioma}) => {
+const VerticalMenu = ({showVert,idioma, handleMenuClick}) => {
   return (
-    <div className="VerticalMenu">
-        <a href="/">{idioma==="es"?"Menú":"Menu"}</a>
-        <Link to="/mixology">
+  <div className={`VerticalMenu  ${showVert? "Show-Vert" : "Hide-Vert"}`}>
+      <div className="slide-in-blurred-right">
+        <NavLink activeClassName="estamos" to="/menu"  onClick={handleMenuClick}>{idioma==="es"?"Menú":"Menu"}</NavLink>
+        <NavLink activeClassName="estamos" to="/mixology" onClick={handleMenuClick}>
             {idioma==="es"?"Mixología":"Mixology"}
-        </Link>
-        <Link to="/postres">
+        </NavLink>
+        <NavLink activeClassName="estamos" to="/postres" onClick={handleMenuClick}>
             {idioma==="es"?"Postres":"Desserts"}
-        </Link>
-        <a href="https://fredshouserestaurant.com/menudigital/destilados.pdf">{idioma==="es"?"Destilados":"Spirits"}</a>
+        </NavLink>
+        <a href="https://fredshouserestaurant.com/menudigital/destilados.pdf" onClick={handleMenuClick}>{idioma==="es"?"Destilados":"Spirits"} </a>
+      </div>
     </div>
   )
 }

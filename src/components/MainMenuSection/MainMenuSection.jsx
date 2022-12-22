@@ -1,13 +1,14 @@
 
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { MenuList } from '..'
+import { MenuList, VerticalMenu } from '..'
 
 import './MainMenuSection.css'
 
-const MainMenuSection = ({idioma, data}) => {
+const MainMenuSection = ({idioma, data, showVert, handleMenuClick}) => {
   const [datos, setDatos] = useState([])
   const [subMenu, setSubMenu] = useState(false)
+
   let {id}= useParams()
   useEffect(()=>{
     if(!id){
@@ -25,20 +26,25 @@ const MainMenuSection = ({idioma, data}) => {
         }
       })
     }    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   return (
-    <section className='MainMenuSection'>
-      {subMenu ?
-        (datos && <MenuList idioma={idioma} data={datos}/>) :
-        (datos && (datos.map((e)=>{
-              return(
-                  <MenuList idioma={idioma} data={e}/>
+    <>
+      <VerticalMenu showVert={showVert} idioma={idioma} handleMenuClick={handleMenuClick}/>
+
+      <section className='MainMenuSection'>
+        {subMenu ?
+          (datos && <MenuList idioma={idioma} data={datos}/>) :
+          (datos && (datos.map((e)=>{
+            return(
+              <MenuList idioma={idioma} data={e}/>
               )
-          }))
-        )
-      }
-        
-    </section>
+            }))
+            )
+          }
+          
+      </section>
+        </>
   )
 }
 

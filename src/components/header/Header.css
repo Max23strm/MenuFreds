@@ -24,10 +24,15 @@
 .grupoTopHeader > *{
     flex: 0;
 }
-.grupoHaderLogo{
+.grupoHeader .logoA{
     flex: 1;
+    height: fit-content;
     width: 10vw;
     max-width: 150px;
+}
+.grupoHaderLogo{
+    max-width: 150px;
+    height: 67.5px;
 }
 
 .carousel{
