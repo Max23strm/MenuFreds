@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { MenuList, VerticalMenu } from '..'
 import './MenuSubSection.css'
 
@@ -32,8 +32,9 @@ const MenuSubSection = ({idioma, data, showVert, handleMenuClick}) => {
     return (
       <>
         <VerticalMenu showVert={showVert} idioma={idioma} handleMenuClick={handleMenuClick}/>
-  
+        
         <section className='MenuSubSection'>
+        <button className='boton-Vuelta'><Link to={"/"}>{idioma==="es" ? "Volver al menú" : "Back to main"}</Link></button>
           {subMenu ?
             (datos && <MenuList idioma={idioma} data={datos}/>) :
             (datos && (datos.map((e)=>{

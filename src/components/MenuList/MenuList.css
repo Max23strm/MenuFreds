@@ -1,11 +1,13 @@
 .listSection{
+    align-items: center;
+    margin-top: 4rem;
+    scroll-behavior: smooth;
+}
+.listSection, .listSection .foodSection{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    scroll-behavior: smooth;
     
 }
 .listSection .sectionName{
@@ -32,4 +34,12 @@
     font-family: "Open Sans", Sans-serif;
     font-size: 15px;
     font-weight: 400;
+}
+
+@media only screen and (min-width:780px) {
+    .listSection .foodSection{
+        display: grid;
+        grid-template-columns:  repeat(2, 1fr);
+        gap: 20px;
+    }
 }
