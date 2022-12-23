@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route, } from 'react-router-dom'
-import { Header, Footer, MainMenuSection } from '../components'
+import { Header, Footer, MainMenuSection, MenuSubSection } from '../components'
 
 const Rutas = ({data, idioma, changeIdioma,handleMenuClick,showVert}) => {
   
@@ -8,7 +8,7 @@ const Rutas = ({data, idioma, changeIdioma,handleMenuClick,showVert}) => {
         <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma} handleMenuClick={handleMenuClick}/>
         <Switch>
             <Route
-              path="/menu"
+              path="/"
               exact 
               children={
                 <MainMenuSection showVert={showVert} idioma={idioma} data={data} handleMenuClick={handleMenuClick}/>
@@ -16,9 +16,9 @@ const Rutas = ({data, idioma, changeIdioma,handleMenuClick,showVert}) => {
             />
 
             <Route 
-              path="/:id" 
+              path="/menu/:id" 
               children={
-                <MainMenuSection showVert={showVert} idioma={idioma} data={data} handleMenuClick={handleMenuClick}/>
+                <MenuSubSection showVert={showVert} idioma={idioma} data={data} handleMenuClick={handleMenuClick}/>
               }
             />
 
