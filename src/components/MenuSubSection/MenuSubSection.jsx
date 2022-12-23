@@ -34,7 +34,7 @@ const MenuSubSection = ({idioma, data, showVert, handleMenuClick}) => {
         <VerticalMenu showVert={showVert} idioma={idioma} handleMenuClick={handleMenuClick}/>
         
         <section className='MenuSubSection'>
-        <button className='boton-Vuelta'><Link to={"/"}>{idioma==="es" ? "Volver al menú" : "Back to main"}</Link></button>
+        <button className='boton-Vuelta'><Link to={"/"}>{idioma==="es" ? "< menú" : "< main"}</Link></button>
           {subMenu ?
             (datos && <MenuList idioma={idioma} data={datos}/>) :
             (datos && (datos.map((e)=>{
