@@ -21,7 +21,7 @@ const FoodCard = ({data, idioma}) => {
           <p className='desc'>{data.descripcion[idioma][0]}
           <ul>
           {data.descripcion[idioma].map((e,i)=>{
-            return <li key={i}>{e}</li>
+            if(i!==0) return <li key={i}>{e}</li>
           })}
           </ul>
           </p> 
