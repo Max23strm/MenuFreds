@@ -12,10 +12,18 @@
     top: 210px;
     left: 10px;
 }
-
 .boton-Vuelta a{
     font-family: montserrat,Sans-serif;
     color: white;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+}
+.boton-Vuelta svg{
+    width: .7rem;
+    height: auto;
 }
