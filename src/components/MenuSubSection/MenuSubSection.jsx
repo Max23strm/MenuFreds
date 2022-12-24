@@ -26,6 +26,7 @@ const MenuSubSection = ({idioma, data, showVert, handleMenuClick}) => {
           }
         })
       }
+      Window.scrollTo(0,0)
       //eslint-disable-next-line
     },[id])
   
