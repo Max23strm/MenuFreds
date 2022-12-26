@@ -18,13 +18,13 @@ const FoodCard = ({data, idioma}) => {
         <h3>{data.nombre[idioma]}</h3>
         {data.qty && (<p className='qty'>{data.qty[idioma]}</p>)}
         {data.descripcion && (Array.isArray(data.descripcion[idioma])?(
-          <p className='desc'>{data.descripcion[idioma][0]}
+          <div className='desc'>{data.descripcion[idioma][0]}
           <ul>
           {data.descripcion[idioma].map((e,i)=>{
-            if(i!==0) return <li key={i}>{e}</li>
+            return (i!==0?<li key={i}>{e}</li>:null)
           })}
           </ul>
-          </p> 
+          </div> 
         ):<p className='desc'>{data.descripcion[idioma]}</p>)}
         {data.extra ? (
           <div className='extraSection'>

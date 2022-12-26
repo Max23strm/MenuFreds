@@ -5,7 +5,7 @@ const Rutas = ({data, idioma, changeIdioma,handleMenuClick,showVert}) => {
   
   return (
     <BrowserRouter >
-        <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma} handleMenuClick={handleMenuClick}/>
+        <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma} handleMenuClick={handleMenuClick} showVert={showVert}/>
         <Switch>
             <Route
               path="/"

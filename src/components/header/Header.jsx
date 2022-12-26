@@ -1,9 +1,10 @@
 import Flickity from "react-flickity-component";
 import { Link,  } from "react-router-dom";
+import {Hamburguer} from '../index'
 
 import './Header.css'
 
-const Header = ({idioma, changeIdioma, data,handleMenuClick}) => {
+const Header = ({idioma, changeIdioma, data,handleMenuClick, showVert}) => {
   const option={pageDots: false, cellAlign: 'left', wrapAround:true,selectedAttraction: 0.2,groupCells: "90%",friction: 0.8}
   
   return (
@@ -14,7 +15,7 @@ const Header = ({idioma, changeIdioma, data,handleMenuClick}) => {
           <img src="https://fredshouserestaurant.com/menudigital/wp-content/uploads/2022/05/freds-restaurant-logo-1024x454-1.png" alt="logo"  className={`grupoHaderLogo`}/>
         </Link>
         <button onClick={handleMenuClick}>
-          menu
+          <Hamburguer showVert={showVert}/>
         </button>
       </section>
       <section>

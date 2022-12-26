@@ -6,7 +6,7 @@ const VerticalMenu = ({showVert,idioma, handleMenuClick}) => {
   <div className={`VerticalMenu  ${showVert? "Show-Vert" : "Hide-Vert"}`}>
       <div className="slide-in-blurred-right">
         <NavLink activeClassName="estamos" to="/"  onClick={handleMenuClick}>{idioma==="es"?"Menú":"Menu"}</NavLink>
-        <NavLink activeClassName="estamos" to="/menu/mixology" onClick={handleMenuClick}>
+        <NavLink activeClassName="estamos" to="/menu/mixologia" onClick={handleMenuClick}>
             {idioma==="es"?"Mixología":"Mixology"}
         </NavLink>
         <NavLink activeClassName="estamos" to="/menu/postres" onClick={handleMenuClick}>
