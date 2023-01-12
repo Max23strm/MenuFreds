@@ -704,10 +704,7 @@
                         "tipo":"comun"
                     }
                 ]
-            }
-        ],
-    "postres":
-        [
+            },
             {
                 "nombre": {"es":"POSTRES","en":"DESSERTS"},
                 "id":"postres",
@@ -790,12 +787,10 @@
                         "tipo":"comun"
                     }
                 ]
-            }
-        ],
-    "mixologia":
-        [
+            },
             {
                 "nombre": {"es":"Mixología", "en":"Mixology"},
+                "id":"mixologia",
                 "platos":[
                     {
                         "nombre":{"es":"LEMON BUBBLES", "en":"LEMON BUBBLES"},
@@ -842,6 +837,7 @@
                 ]
             },
             {
+                "id":"mixologia",
                 "nombre": {"es":"Mojito Bar", "en":"Mojito Bar"},
                 "sub1":{"es":"Ron Bacardí Blanco® 45 ml y top soda a elegir:","en":"Bacardí Blanco® Rum 1.5 oz and top soda to choose:"},
                 "platos":[
@@ -878,6 +874,7 @@
                 ]
             },
             {
+                "id":"mixologia",
                 "nombre": {"es":"COCTELERÍA", "en":"COCKTAILS"},
                 "platos":[
                     {
@@ -914,6 +911,7 @@
             },
             {
                 "nombre": {"es":"MOCKTAILS", "en":"MOCKTAILS"},
+                "id":"mixologia",
                 "platos":[
                     {
                         "nombre":{"es":"GOLDEN PARADISE", "en":"GOLDEN PARADISE"},

@@ -22,13 +22,22 @@ const Header = ({idioma, changeIdioma, data,handleMenuClick, showVert}) => {
         <Flickity
           className={'carousel'}
           options={option}>
-          {data.map((e,i)=>{
+          {data && data.map((e,i)=>{
+            if(e.nombre.es =="Destilados"){
+              return( 
+                <a href={e.link} key={i}>
+                  <img src={e.img} alt={"icon"} target={"_blank"}/>
+                  <p>{e.nombre[idioma]}</p>
+                </a>
+              )
+          } else {
             return(
               <Link to={`/menu/${e.link}`} key={i} >
                 <img src={e.img} alt={"icon"} />
                 <p>{e.nombre[idioma]}</p>
               </Link>
             )
+          }
           })}
         </Flickity>
       </section>

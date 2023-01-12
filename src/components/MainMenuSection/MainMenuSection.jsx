@@ -11,22 +11,7 @@ const MainMenuSection = ({idioma, data, showVert, handleMenuClick}) => {
 
   let id= useParams().id
   useEffect(()=>{
-    if(!id){
-      setDatos(data.menu)
-      setSubMenu(false)
-    } else if(id === "postres" || id === "mixologia"){
-      console.log(data[id])
-      setDatos([...data[id]])
-      setSubMenu(false)
-    } else{
-      data.menu.forEach((e,index)=>{
-        if(e.id===id){
-          setSubMenu(true)
-          setDatos(data.menu[index])
-          console.log(datos)
-        }
-      })
-    }
+    setDatos([...data.menu])
     //eslint-disable-next-line
   },[])
 
@@ -35,15 +20,8 @@ const MainMenuSection = ({idioma, data, showVert, handleMenuClick}) => {
       <VerticalMenu showVert={showVert} idioma={idioma} handleMenuClick={handleMenuClick}/>
 
       <section className='MainMenuSection'>
-        {subMenu ?
-          (datos && <MenuList idioma={idioma} data={datos}/>) :
-          (datos && (datos.map((e, i)=>{
-            return(
-              <MenuList idioma={idioma} data={e} key={i}/>
-              )
-            }))
-            )
-          }
+        
+        {datos && <MenuList idioma={idioma} data={datos}/>} 
           
       </section>
         </>

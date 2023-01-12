@@ -1,0 +1,35 @@
+.loaderDiv{
+    background-color: #ca901d;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.loaderDiv img{
+    width: 200px;
+    animation: heartbeat 2s ease-in-out infinite both;
+}
+
+.loaderDiv p{
+    font-family: "FuturaBook", Sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 1.2px;
+
+}
+ 
+  @keyframes heartbeat {
+    from {
+        opacity: 1;
+        
+    }
+    45% {
+        opacity: 0;
+    }
+  }
+  

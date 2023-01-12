@@ -8,45 +8,43 @@ import './MenuSubSection.css'
 
 const MenuSubSection = ({idioma, data, showVert, handleMenuClick}) => {
     const [datos, setDatos] = useState([])
-    const [subMenu, setSubMenu] = useState(false)
   
     let id= useParams().id
-    useEffect(()=>{
+    useEffect(()=>{ 
+      setDatos([])
       if(!id){
-        setDatos(data.menu)
-        setSubMenu(false)
-      } else if(id === "postres" || id === "mixologia"){
-        console.log(data[id])
-        setDatos([...data[id]])
-        setSubMenu(false)
-      } else{
+        setDatos([...data.menu])
+      }  else{
         data.menu.forEach((e,index)=>{
           if(e.id===id){
-            setSubMenu(true)
-            setDatos(data.menu[index])
-            console.log(datos)
+            console.log(e)
+            setDatos(current => [...current, e])
+            
           }
         })
       }
       window.scrollTo(0,0)
       //eslint-disable-next-line
     },[id])
-  
     return (
       <>
         <VerticalMenu showVert={showVert} idioma={idioma} handleMenuClick={handleMenuClick}/>
         
         <section className='MenuSubSection'>
         <button className='boton-Vuelta'><Link to={"/"}> <Back/>{idioma==="es" ? " menú" : " main"}</Link></button>
-          {subMenu ?
-            (datos && <MenuList idioma={idioma} data={datos}/>) :
+          <MenuList idioma={idioma} data={datos}/>
+          {/* {subMenu ?
+
+            
+            :
+
             (datos && (datos.map((e)=>{
               return(
                 <MenuList idioma={idioma} data={e}/>
                 )
               }))
               )
-            }
+            } */}
             
         </section>
           </>

@@ -4,7 +4,7 @@ import { Header, Footer, MainMenuSection, MenuSubSection } from '../components'
 const Rutas = ({data, idioma, changeIdioma,handleMenuClick,showVert}) => {
   
   return (
-    <BrowserRouter >
+    <BrowserRouter basename='/build'>
         <Header data={data.header} changeIdioma={changeIdioma} idioma={idioma} handleMenuClick={handleMenuClick} showVert={showVert}/>
         <Switch>
             <Route

@@ -2,20 +2,27 @@
 import {FoodCard} from '../index'
 import './MenuList.css'
 const MenuList = ({idioma, data}) => {
+  console.log(data)
   return (
-    <section className='listSection'>
-      <h3 className='sectionName' id={data.id || null}>{data.nombre[idioma]}</h3>
-      {data.sub1 && <h4 className='sectionSub1'>{data.sub1[idioma]}</h4>}
-      {data.sub2 && <h5 className='sectionSub2'>{data.sub2[idioma]}</h5>}
-      <div className='foodSection'>
+    data && data.map((e,i)=>{
+      return(
+         <section className='listSection' key={i}>
+           <h3 className='sectionName' id={e.id || null}>{e.nombre[idioma]}</h3>
+           {e.sub1 && <h4 className='sectionSub1'>{e.sub1[idioma]}</h4>}
+           {e.sub2 && <h5 className='sectionSub2'>{e.sub2[idioma]}</h5>}
+           <div className='foodSection'>
 
-        {data.platos.map((e,i)=>{
-          return(
-            <FoodCard key={i} data={e} idioma={idioma}/>
-            )
-          })}
-      </div>
-    </section>
+             {e.platos.map((j,l)=>{
+               return(
+                 <FoodCard key={l} data={j} idioma={idioma}/>
+                 )
+               })}
+           </div>
+         </section>
+
+      )
+    })
+
   )
 }
 
