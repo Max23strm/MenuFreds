@@ -1,6 +1,6 @@
 import React from 'react';
 
-import data from './assets/data/porfirios.json'
+import data from './assets/data/data.json'
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
